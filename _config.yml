@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Chris Gascoigne
+title:            esquilax.org
 # tagline:          'A Jekyll theme'
-description:      'cisco data centre architect / opinions are my own'
+description:      '"the legendary esquilax, a horse with the head of a rabbit and the body of a rabbit."'
 url:              http://blog.esquilax.org
 baseurl:          /
 

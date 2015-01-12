@@ -81,7 +81,11 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 3.25rem;
+  font-size: 2.75rem;
+}
+
+.sidebar-about .lead {
+	font-style: italic;
 }
 
 /* Sidebar nav */
