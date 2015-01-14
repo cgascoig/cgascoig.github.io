@@ -27,7 +27,7 @@ Similarly, diagrams for multiple tenants can be generated:
 
 {% highlight bash %}
 
-./aci-diagram/diagram.py -l admin -p cisco123 -u https://apic.aci.ceclab.info -t pepsi common -o multi-tenant.png 
+./aci-diagram/diagram.py -l admin -p password -u https://10.1.1.1 -t pepsi common -o multi-tenant.png 
 Processing tenant pepsi
 Processing tenant common
 
