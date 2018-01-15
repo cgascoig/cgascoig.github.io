@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Notes for future me: Ansible with Homebrew Python"
-tags: [notes-for-future-me]
+title: "TIL: Ansible with Homebrew Python"
+category: til
+tags: [ansible]
 ---
 
 Usually when using Ansible, it will execute the modules specified in the playbooks on the remote host using Python. The Python binary is not selected using the usual `/usr/bin/env python` but instead is set in the `ansible_python_interpreter` inventory variable. This variable defaults to `/usr/bin/python`. 

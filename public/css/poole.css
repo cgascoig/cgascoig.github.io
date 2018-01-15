@@ -351,6 +351,9 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
+.post-date span {
+    margin-right: 2em;
+}
 
 /* Related posts */
 .related {

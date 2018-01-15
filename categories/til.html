@@ -1,0 +1,27 @@
+---
+layout: page
+title: Today I Learned
+---
+
+<div class="posts">
+  <ul style="list-style: none">
+  {% for post in site.categories.til %}
+  <li>
+    <span>
+      {% if post.external-url %}
+        <a href="{{ post.external-url }}">
+      {% else %}
+        <a href="{{ post.url }}">
+      {% endif %}
+        {{ post.title }}
+        </a>
+    </span>
+    <span class="post-date">
+      <span>{{ post.date | date_to_string }}</span>
+      <span class="post-tags"><strong>Tags: </strong>{{post.tags | join: ', ' }}</span>
+    </span>
+  </li>
+  {% endfor %}
+  </ul>
+</div>
+
